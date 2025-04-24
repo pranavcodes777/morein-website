@@ -1,0 +1,247 @@
+/* Crazy Colors and Styles */
+body {
+    background-color: #ffefd5; /* Papaya Whip */
+    font-family: 'Oswald', sans-serif; /* Stylish font */
+}
+
+header {
+    background: linear-gradient(to right, #00ced1, #ff69b4); /* Cyan to Hot Pink */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-bottom: 5px solid #dda0dd; /* Plum */
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #fff;
+    animation: pulse 2s infinite alternate; /* Pulsing animation */
+}
+
+nav ul li a {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold */
+}
+
+.hero {
+    background: linear-gradient(to bottom, #afeeee, #ffc0cb), url('images/hero.jpg') center/cover no-repeat; /* Light Cyan to Pink */
+    padding: 10rem 0;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #d87093; /* Pale Violet Red */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #778899; /* Light Slate Gray */
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.section-title h2 {
+    font-size: 3rem;
+    color: #4682b4; /* Steel Blue */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px dashed #ba55d3; /* Medium Orchid */
+    padding-bottom: 0.5rem;
+}
+
+.title-underline {
+    background: linear-gradient(to right, #ba55d3, #00fa9a); /* Medium Orchid to Medium Spring Green */
+    height: 6px;
+    width: 80px;
+    margin: 0.5rem auto 0;
+    border-radius: 3px;
+}
+
+.about-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-image {
+    border: 4px solid #00fa9a; /* Medium Spring Green */
+    border-radius: 15px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    color: #556b2f; /* Dark Olive Green */
+    line-height: 1.8;
+}
+
+.products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.product-card {
+    background: linear-gradient(135deg, #afeeee, #dda0dd); /* Light Cyan to Plum */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.product-card p.product-benefit {
+    color: #eee;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.view-button {
+    background: linear-gradient(to right, #d87093, #00fa9a); /* Pale Violet Red to Medium Spring Green */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.view-button:hover {
+    background: linear-gradient(to left, #d87093, #00fa9a);
+}
+
+.reviews-slider {
+    overflow-x: scroll;
+    padding: 2rem 0;
+}
+
+.review-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 8px solid #ffd700; /* Gold */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex: 0 0 350px; /* Adjust width as needed */
+    padding: 2rem;
+    margin: 0 1rem;
+    animation: slideIn 1s ease-out;
+}
+
+.review-text {
+    font-size: 1.3rem;
+    color: #8b4513; /* SaddleBrown */
+    font-style: italic;
+}
+
+.reviewer {
+    font-size: 1.1rem;
+    color: #a0522d; /* Sienna */
+    text-align: right;
+}
+
+.slider-controls {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.slider-controls button {
+    background-color: #ffd700;
+    color: #8b4513;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-controls button:hover {
+    background-color: #daa520; /* Goldenrod */
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details a {
+    color: #483d8b; /* DarkSlateBlue */
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(to right, #ba55d3, #00fa9a);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Text Styles */
+.honey-text {
+    color: #ffd700; /* Gold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.story-text {
+    color: #d87093; /* PaleVioletRed */
+    font-weight: bold;
+}
+
+.collection-text {
+    color: #00ced1; /* Light Cyan */
+    text-decoration: underline;
+}
+
+.say-text {
+    color: #ff69b4; /* Hot Pink */
+    font-style: italic;
+}
+
+.us-text {
+    color: #00fa9a; /* MediumSpringGreen */
+    font-weight: bold;
+}
+
+/* Keyframes for Animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
